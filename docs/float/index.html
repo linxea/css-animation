@@ -2,6 +2,13 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1 user-scalable=no">
+  <meta name="description" content="Really simple css animation">
+  <meta name="keywords" content="CSS, Animation, Easy as hell">
+  <meta name="author" content="linxea">
+  <title>Spaceship 🚀</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <style>
     body {
       height: 100vh;
@@ -17,12 +24,7 @@
       font-size: 10px;
     }
 
-    .box {
-      position: relative;
-      padding-bottom: 2rem;
-    }
-
-    .box span {
+    .ship span {
       position: absolute;
       bottom: -2rem;
       left: 0;
@@ -37,8 +39,8 @@
       height: 200px;
       background-image: url(../images/spaceship.png);
       background-size: cover;
+      margin-bottom: 2rem;
     }
-
 
     .float-ease {
       animation: float 2s infinite ease;
@@ -87,28 +89,18 @@
 </head>
 
 <body>
-  <div class="box">
-    <div class="ship float-ease-out">
-      <span>Ease out (up is slower)</span>
-    </div>
+  <div class="ship float-ease-out">
+    <span>Ease out (up is slower)</span>
   </div>
-  <div class="box">
-    <div class="ship float-ease">
-      <span>Ease (normal) </span>
-    </div>
+  <div class="ship float-ease">
+    <span>Ease (normal) </span>
   </div>
-  <div class="box">
-    <div class="ship float-ease-in-out">
-      <span>Ease in out (slower)</span>
-    </div>
+  <div class="ship float-ease-in-out">
+    <span>Ease in out (slower)</span>
   </div>
-  <div class="box">
-    <div class="ship float-ease-in">
-      <span>Ease in (down is slower)</span>
-    </div>
+  <div class="ship float-ease-in">
+    <span>Ease in (down is slower)</span>
   </div>
-
-
   <a class="go-back" href="../">&lt;</a>
 </body>
 
