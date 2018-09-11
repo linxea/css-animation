@@ -1,0 +1,115 @@
+<!Doctype html>
+<html>
+
+<head>
+  <style>
+    body {
+      height: 100vh;
+      margin: 0;
+      font: 400 10px Lato, sans-serif;
+      background-color: black;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      vertical-align: middle;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+    }
+
+    .box {
+      position: relative;
+      padding-bottom: 2rem;
+    }
+
+    .box span {
+      position: absolute;
+      bottom: -2rem;
+      left: 0;
+      right: 0;
+      color: white;
+      text-align: center;
+      font-size: large;
+    }
+
+    .ship {
+      width: 200px;
+      height: 200px;
+      background-image: url(../images/spaceship.png);
+      background-size: cover;
+    }
+
+
+    .float-ease {
+      animation: float 2s infinite ease;
+    }
+
+    .float-ease-in {
+      animation: float 2s infinite ease-in
+    }
+
+    .float-ease-in-out {
+      animation: float 2s infinite ease-in-out;
+    }
+
+    .float-ease-out {
+      animation: float 2s infinite ease-out;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(1rem);
+      }
+
+      50% {
+        transform: translateY(0);
+      }
+
+      100% {
+        transform: translateY(1rem);
+      }
+    }
+
+    .go-back {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      color: white;
+      font: 400 3rem monospace;
+      padding: 0.5rem 1rem;
+      opacity: 0.2;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div class="ship float-ease-out">
+      <span>Ease out (up is slower)</span>
+    </div>
+  </div>
+  <div class="box">
+    <div class="ship float-ease">
+      <span>Ease (normal) </span>
+    </div>
+  </div>
+  <div class="box">
+    <div class="ship float-ease-in-out">
+      <span>Ease in out (slower)</span>
+    </div>
+  </div>
+  <div class="box">
+    <div class="ship float-ease-in">
+      <span>Ease in (down is slower)</span>
+    </div>
+  </div>
+
+
+  <a class="go-back" href="../">&lt;</a>
+</body>
+
+</html>
