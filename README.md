@@ -1,5 +1,5 @@
-# Parallax Scrolling
+# CSS Animation
 
 A freaking simple parallax scrolling effect experiment.
 
-## [1. Smile](https://linxea.github.io/parallax-scrolling/smile)
+## [1. Float](https://linxea.github.io/css-animation/float)
