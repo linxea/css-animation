@@ -1,11 +1,12 @@
 # Contributing to CSS-ANIMATION 🎉
 
-## Just make sure you have the following points checked
+## Please follow the format as closely as you can even though you are noob like me 🌝
 
-- [x] Add a new folder in /docs with the name of your css magic
-- [x] Add a link in /docs/index.html
-- [x] Update README.md to add the links to your css magic
+- Add an index.html with your css magic in YOUR_FOLDER_NAME.
+  - E.g. `/docs/YOUR_FOLDER_NAME/index.html`
+- Update README.md with a link to your YOUR_FOLDER_NAME.
+  - E.g. `## [n. YOUR CSS ANIMATION NAME](https://linxea.github.io/css-animation/YOUR_FOLDER_NAME)` (Are we able to auto generate this? 🤔)
 
-## Enjoy, no rules no anything
+## Rules
 
 - [x] Be nice, kthxbye
