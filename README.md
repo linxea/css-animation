@@ -10,3 +10,4 @@ A freaking simple css animation I never knew that I never knew.
 
 ## [3. Slide](https://ark20.github.io/css-animation/)
 
+## [4. CSS is Awesome](https://linxea.github.io/css-animation/rozenstraws)
